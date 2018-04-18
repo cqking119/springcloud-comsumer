@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.springbootinterface;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.stereotype.Component;
