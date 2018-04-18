@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-@FeignClient( "spring-cloud-producer")//远程调用生产者的接口
+@FeignClient( "spring-cloud-producer")//远程调用生产者的接口啊
 @Component
 public interface HelloRemote {
     @RequestMapping(value = "/hello/{name}",method = RequestMethod.GET)
